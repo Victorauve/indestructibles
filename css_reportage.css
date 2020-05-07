@@ -45,9 +45,13 @@ footer
 }
 h2
 {
-    font-size: 30px;
+    font-size: 32px;
     border-bottom: 2px black solid;
     box-shadow: 6px 6px 6px black;
+}
+h5
+{
+    font-size: 25px;
 }
 p
 {
