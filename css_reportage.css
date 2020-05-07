@@ -1,0 +1,83 @@
+h1
+{
+    margin-left: 210px;
+    text-align: center;
+    border: 4px black solid;
+    box-shadow: 6px 6px 6px black;
+    font-size: 55px;
+}
+h3
+{
+
+    border: 2px black solid;
+    margin-left: 210px;
+}
+h4
+{
+    text-align: right;
+}
+a:active
+{
+    color:grey;
+}
+body
+{
+    background-image: url("Fond-neutre.jpg");
+    margin:100px;
+}
+nav
+{
+	color: blue;
+    font-size: 30px;
+    float: center;
+    border: 4px blue solid;
+    border-radius: 45px
+}
+footer
+{
+    float: left;
+}
+{
+.imageflottante
+{
+    float: left;
+}
+}
+h2
+{
+    font-size: 30px;
+    border-bottom: 2px black solid;
+    box-shadow: 6px 6px 6px black;
+}
+p
+{
+	font-size: 20px;
+}
+
+.item
+{
+    font-size: 25px;
+}
+
+
+#menu li {
+	list-style-type: none;
+	}
+
+	
+#menu>.onglet{
+    float: top;
+	cursor: pointer;
+    }
+
+#menu .item{
+    display: none;
+	}
+
+#menu>.onglet:hover>.item{
+    display: block;
+    }
+
+menu>.onglet:hover>.item>li{
+    line-height: 30px;
+    }
